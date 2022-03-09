@@ -3,13 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>BT5 Luxury Hostel - Put-in-Bay</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
@@ -20,26 +21,25 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/AJNeyHRoheY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<span>Put-In-Bay's Most Available Lodging!</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Put-In-Bay's Most Available Lodging!</span>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_1.jpg" alt="Boardwalk at night">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Legendary Night Life!</p>
 							</div>
@@ -48,10 +48,10 @@
 					<!-- END PHOTO-CONTAINER 1 -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_2.jpg" alt="Group Outings">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Legendary Night Life!</p>
 							</div>
@@ -60,10 +60,10 @@
 					<!-- END PHOTO-CONTAINER 2 -->
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_3.jpg" alt="Daytime boardwalk">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Legendary Night Life!</p>
 							</div>
@@ -72,10 +72,10 @@
 					<!-- END PHOTO-CONTAINER 3 -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_4.jpg" alt="Definitely clean pool parties">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Legendary Night Life!</p>
 							</div>
@@ -84,10 +84,10 @@
 					<!-- END PHOTO-CONTAINER 4 -->
 					
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_5.jpg" alt="Drink alone">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Legendary Night Life!</p>
 							</div>
@@ -96,10 +96,10 @@
 					<!-- END PHOTO-CONTAINER 5 -->
 					
 					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_6.jpg" alt="Vintage house front">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>"Luxury" Accomodations!</p>
 							</div>
@@ -108,10 +108,10 @@
 					<!-- END PHOTO-CONTAINER 6 -->
 					
 					<!-- PHOTO-CONTAINER 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_7.jpg" alt="fully stocked kitchen">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>"Luxury" Accomodations!</p>
 							</div>
@@ -120,10 +120,10 @@
 					<!-- END PHOTO-CONTAINER 7 -->
 					
 					<!-- PHOTO-CONTAINER 8 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_8.jpg" alt="Beds!">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>"Luxury" Accomodations!</p>
 							</div>
@@ -132,10 +132,10 @@
 					<!-- END PHOTO-CONTAINER 8 -->
 					
 					<!-- PHOTO-CONTAINER 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_9.jpg" alt="Legally counts as a bathroom">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>"Luxury" Accomodations!</p>
 							</div>
@@ -147,30 +147,36 @@
 			</div>
 		</section>
 		<!-- END GALLERY -->
-		
+
+		<section id="video">
+			<div class="container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/AJNeyHRoheY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>	
+
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
-						<h2><span>The most available luxurious accomodations on this particular island!.</span>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div id="reservation">
+						<h2><span>The most available luxurious accomodations on this particular island!</span>
 							<br />Reserve your party palace today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
 								<div>
-									<input type"submit" value="Submit">
+									<input type="submit" value="Submit">
 								</div>
 							</form>
 						</div>
@@ -181,12 +187,12 @@
 		<!-- END RSVP -->
 		
 		<!-- FOOTER -->
-		<footer>
-			<div>
-			<a www.theBT5Hostel.com &nbsp;|&nbsp; &copy; 2022</a>
-			<a href="mailto:BT5inc@BT5hostel.com>BT5inc@BT5hostel</a>
+		<div id="footer">
+			<div class="video">
 			</div>
-		</footer>
+			<a> www.theBT5Hostel.com &nbsp;|&nbsp; &copy; 2022</a>
+			<a href="mailto:BT5inc@BT5hostel.com>BT5inc@BT5hostel</a>
+		</div>
 		<!-- END FOOTER -->
 		
 	</body>
