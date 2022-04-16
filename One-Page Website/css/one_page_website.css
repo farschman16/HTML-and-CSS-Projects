@@ -24,6 +24,7 @@ nav {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: auto;
 }
 .wrap {
     height: 100%;
@@ -494,4 +495,11 @@ p {
 
 .photo:hover img {
     transform: scale(1.1);
+}
+
+.video {
+    padding-left: auto;
+    padding-right: auto;
+    padding-left: auto;
+    padding-right: auto;
 }
