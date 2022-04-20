@@ -5,8 +5,12 @@
 		<title>The Space Station | Resort</title>
 		<link rel="stylesheet" href="./CSS/shared.css">
 		<link rel="stylesheet" href="./CSS/animations.css">
+		<script src="./js/js.js" defer></script>
 	</head>
 	<body>
+		<script>
+			document.body.classList.add('fade-out'); //adding the fade-out js so the body will fade in after DOM is loaded
+		</script>
 
 		<!--NAV-->
 		<div class="wrap">
@@ -161,11 +165,11 @@
 							Please provide us with your basic contact information.
 						</p>
 						<div class="form-rsvp">
-							<form action="" method="post">
+							<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 								<input class="rsvp" type="text" value="" placeholder="First Name">
 								<input class="rsvp" type="text" value="" placeholder="Last Name">
 								<input class="rsvp" type="text" value="" placeholder="Email Address">
-								<input class="rsvp" type="text" value="" placeholder="Phone Number">
+								<input class="rsvp" type="text" name="phone" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
